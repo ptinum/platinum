@@ -14,12 +14,9 @@
     transform: rotate(0.04deg);
 }
 
-* {
-    font-family: 'aCinema';
-}
 
 body{
-    font-family: 'aCinemaL';
+    font-family: 'aCinemaM';
     -ms-overflow-style: none;
     background-color: #F0F0F0;
 }
@@ -29,6 +26,7 @@ body{
 }
 
 div{
+    font-family: 'aCinemaL';
     -webkit-touch-callout: none;
     user-select: none;
     -moz-user-select: none;
