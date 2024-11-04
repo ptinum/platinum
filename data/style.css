@@ -1,27 +1,39 @@
 @font-face {
-    font-family: 'MonoplexKR-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-family: 'aCinemaL';
+    src: url('/data/aCinemaL') format('truetype');
     font-weight: 500;
     font-style: normal;
-  transform: rotate(0.04deg);
+    transform: rotate(0.04deg);
+}
+
+@font-face {
+    font-family: 'aCinemaB';
+    src: url('/data/aCinemaB') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    transform: rotate(0.04deg);
+}
+
+* {
+    font-family: 'aCinema';
 }
 
 body{
-  font-family: 'MonoplexKR-Regular';
-  -ms-overflow-style: none;
-  background-color: #F0F0F0;
+    font-family: 'aCinemaL';
+    -ms-overflow-style: none;
+    background-color: #F0F0F0;
 }
  
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 div{
-  -webkit-touch-callout: none;
-  user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 a {
