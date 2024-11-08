@@ -3,7 +3,7 @@
     src: url('font/aCinemaM.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-  transform: rotate(0.04deg);
+    transform: rotate(0.04deg);
 }
 
 html {
