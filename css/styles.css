@@ -6,8 +6,11 @@
   transform: rotate(0.04deg);
 }
 
+*{
+    font-family: 'aCinema';
+}
+    
 body{
-  font-family: 'aCinema';
   -ms-overflow-style: none;
   background-color: #F0F0F0;
 }
