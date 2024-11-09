@@ -9,6 +9,14 @@
 html {
     font-family: 'aCinema';
 }
+
+body {
+    font-family: 'aCinema';
+}
+
+* {
+    font-family: 'aCinema';
+}
     
 body{
   -ms-overflow-style: none;
